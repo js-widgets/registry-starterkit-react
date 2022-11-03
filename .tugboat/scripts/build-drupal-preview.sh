@@ -18,13 +18,13 @@ done < <(find "${TUGBOAT_ROOT}/src/apps" -maxdepth 2 -mindepth 1 -type d -name p
 DEBUG=*,-babel*,-eslint* \
 NODE_ENV=production \
 PUBLIC_ASSETS_URL="${TUGBOAT_SERVICE_URL}sites/default/files/widget-registry/static" \
-js-widgets-webpack-cli \
+yarn dlx @js-widgets/webpack-cli \
   --debug \
-  --existing-registry="https://js-widgets.github.io/registry-starterkit-react/widget-registry/sandbox/registry.json" \
+  --existing-registry="https://js-widgets.github.io/registry-starterkit-react/development/widget-registry/registry.json" \
   --output-dir="${WIDGET_REGISTRY_DIR}" \
   "${TUGBOAT_ROOT}"
 
-perl -pe "s@https\://js-widgets\.github\.io\/registry-starterkit-react/widget-registry/sandbox@${TUGBOAT_SERVICE_URL}sites/default/files/widget\-registry@g" "${WIDGET_REGISTRY_DIR}/registry.json" > "${WIDGET_REGISTRY_DIR}/corrected-registry.json"
+perl -pe "s@https\://js-widgets\.github\.io\/registry-starterkit-react/development/widget-registry@${TUGBOAT_SERVICE_URL}sites/default/files/widget\-registry@g" "${WIDGET_REGISTRY_DIR}/registry.json" > "${WIDGET_REGISTRY_DIR}/corrected-registry.json"
 
 # Set the widget registry to pull from Tugboat.
 cd "${DRUPAL_COMPOSER_ROOT}"
