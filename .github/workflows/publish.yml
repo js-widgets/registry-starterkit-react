@@ -58,7 +58,7 @@ jobs:
             # From /path/to/src/apps/my-widget/locales/compiledStrings/es.json to ${TEMP_DIR}/translations/my-widget/es.json
             destination=$(echo "${directory}" |sed -e 's:.*/apps/::g' -e 's:/locales/compiledStrings::g')
             cp --recursive "$directory" "$TEMP_DIR/$destination"
-          done < <(find "$PROJECT_ROOT" -type d -name compiledStrings -print0)
+          done < <(find "./src/apps" -type d -name compiledStrings -print0)
           mv "${TEMP_DIR}" "${DIST_DIR}/translations"
         env:
           DIST_DIR: dist/${{ env.current_branch }}
