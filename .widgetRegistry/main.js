@@ -80,7 +80,7 @@ module.exports = {
       external: 'ReactDOM',
     },
     'react-intl': {
-      src: 'https://cdn.jsdelivr.net/npm/react-intl@6/dist/react-intl.min.js',
+      src: 'https://cdn.jsdelivr.net/npm/react-intl@6/index.min.js',
       external: 'ReactIntl',
     },
   },
