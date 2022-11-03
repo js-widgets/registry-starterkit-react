@@ -22,6 +22,7 @@ services:
         curl -sL https://deb.nodesource.com/setup_16.x | sh
         apt-get install -y nodejs
         npm install --global yarn
+        yarn global add @js-widgets/webpack-cli@latest
         ln --symbolic --no-dereference --force "${TUGBOAT_ROOT}/dist/storybook" "${DOCROOT}"
       build: |
         yarn install
