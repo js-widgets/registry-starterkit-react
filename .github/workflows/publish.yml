@@ -22,7 +22,6 @@ jobs:
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
         id: extract_branch
       - name: Build the catalog locally
-        description: Creates the storybook static site.
         run: yarn storybook:build --output-dir "${DIST_DIR}/storybook"
         env:
           DEBUG: '*,-babel*,-eslint*'
@@ -30,8 +29,8 @@ jobs:
           PUBLIC_ASSETS_URL: https://js-widgets.github.io/registry-starterkit-react/${{ steps.extract_branch.outputs.branch }}/widget-registry/static
           DIST_DIR: dist/${{ steps.extract_branch.outputs.branch }}
       - name: Build the registry locally
-        description: Creates the JS & CSS files, and registry.json, and puts them in dist/widget-registry
         run: |
+          # Creates the JS & CSS files, and registry.json, and puts them in dist/widget-registry
           js-widgets-webpack-cli \
             --debug \
             --existing-registry="${PUBLIC_URL}/registry.json" \
@@ -43,8 +42,8 @@ jobs:
           PUBLIC_ASSETS_URL: https://js-widgets.github.io/registry-starterkit-react/${{ steps.extract_branch.outputs.branch }}/widget-registry/static
           DIST_DIR: dist/${{ steps.extract_branch.outputs.branch }}
       - name: Prepare public dirs
-        description: The public files of each widget need to be moved to /static so they are uploaded correctly.
         run: |
+          # The public files of each widget need to be moved to /static so they are uploaded correctly.
           TEMP_DIR=$(mktemp --directory)
           mkdir --parents "${TEMP_DIR}/static"
           # Find all the folders with the name "public" and copy them to the temporary directory.
@@ -57,8 +56,8 @@ jobs:
         env:
           DIST_DIR: dist/${{ steps.extract_branch.outputs.branch }}
       - name: Prepare translations
-        description: The public files of each widget need to be moved to /static so they are uploaded correctly.
         run: |
+          # The public files of each widget need to be moved to /static so they are uploaded correctly.
           TEMP_DIR=$(mktemp --directory)
           mkdir --parents "${TEMP_DIR}/translations"
           # Find all the folders with the name "compiledStrings" and copy them to the temporary directory.
