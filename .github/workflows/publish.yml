@@ -30,16 +30,8 @@ jobs:
             .
         env:
           DEBUG: '*,-babel*,-eslint*'
-          PUBLIC_URL: https://js-widgets.github.io/registry-starterkit-react/${{ steps.extract_branch.outputs.branch }}/widget-registry
-          PUBLIC_ASSETS_URL: https://js-widgets.github.io/registry-starterkit-react/${{ steps.extract_branch.outputs.branch }}/widget-registry/static
-          DIST_DIR: dist/${{ env.current_branch }}
-          NODE_ENV: production
-      - name: Build the catalog locally
-        run: yarn storybook:build --output-dir "${DIST_DIR}/storybook"
-        env:
-          DEBUG: '*,-babel*,-eslint*'
-          PUBLIC_URL: https://js-widgets.github.io/registry-starterkit-react/${{ steps.extract_branch.outputs.branch }}/widget-registry
-          PUBLIC_ASSETS_URL: https://js-widgets.github.io/registry-starterkit-react/${{ steps.extract_branch.outputs.branch }}/widget-registry/static
+          PUBLIC_URL: https://js-widgets.github.io/registry-starterkit-react/${{ env.current_branch }}/widget-registry
+          PUBLIC_ASSETS_URL: https://js-widgets.github.io/registry-starterkit-react/${{ env.current_branch }}/widget-registry/static
           DIST_DIR: dist/${{ env.current_branch }}
           NODE_ENV: production
       - name: Prepare public dirs
@@ -70,6 +62,14 @@ jobs:
           mv "${TEMP_DIR}" "${DIST_DIR}/translations"
         env:
           DIST_DIR: dist/${{ env.current_branch }}
+      - name: Build the catalog locally
+        run: yarn storybook:build --output-dir "${DIST_DIR}/storybook"
+        env:
+          DEBUG: '*,-babel*,-eslint*'
+          PUBLIC_URL: https://js-widgets.github.io/registry-starterkit-react/${{ env.current_branch }}/widget-registry
+          PUBLIC_ASSETS_URL: https://js-widgets.github.io/registry-starterkit-react/${{ env.current_branch }}/widget-registry/static
+          DIST_DIR: dist/${{ env.current_branch }}
+          NODE_ENV: production
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v5
         with:
