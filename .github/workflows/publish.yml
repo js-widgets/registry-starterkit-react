@@ -17,7 +17,7 @@ jobs:
         run: yarn install && yarn compile
       - name: Extract branch name
         shell: bash
-        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        run: echo "current_branch=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
         id: extract_branch
       - name: Build the catalog locally
         run: yarn storybook:build --output-dir "${DIST_DIR}/storybook"
@@ -25,7 +25,7 @@ jobs:
           DEBUG: '*,-babel*,-eslint*'
           PUBLIC_URL: https://js-widgets.github.io/registry-starterkit-react/${{ steps.extract_branch.outputs.branch }}/widget-registry
           PUBLIC_ASSETS_URL: https://js-widgets.github.io/registry-starterkit-react/${{ steps.extract_branch.outputs.branch }}/widget-registry/static
-          DIST_DIR: dist/${{ steps.extract_branch.outputs.branch }}
+          DIST_DIR: dist/${{ env.current_branch }}
       - name: Build the registry locally
         run: |
           # Creates the JS & CSS files, and registry.json, and puts them in dist/widget-registry
@@ -38,7 +38,7 @@ jobs:
           DEBUG: '*,-babel*,-eslint*'
           PUBLIC_URL: https://js-widgets.github.io/registry-starterkit-react/${{ steps.extract_branch.outputs.branch }}/widget-registry
           PUBLIC_ASSETS_URL: https://js-widgets.github.io/registry-starterkit-react/${{ steps.extract_branch.outputs.branch }}/widget-registry/static
-          DIST_DIR: dist/${{ steps.extract_branch.outputs.branch }}
+          DIST_DIR: dist/${{ env.current_branch }}
       - name: Prepare public dirs
         run: |
           # The public files of each widget need to be moved to /static so they are uploaded correctly.
@@ -52,7 +52,7 @@ jobs:
           done < <(find "./src/apps" -maxdepth 2 -mindepth 1 -type d -name public -print0)
           mv "${TEMP_DIR}" "${DIST_DIR}/static"
         env:
-          DIST_DIR: dist/${{ steps.extract_branch.outputs.branch }}
+          DIST_DIR: dist/${{ env.current_branch }}
       - name: Prepare translations
         run: |
           # The public files of each widget need to be moved to /static so they are uploaded correctly.
@@ -66,7 +66,7 @@ jobs:
           done < <(find "$PROJECT_ROOT" -type d -name compiledStrings -print0)
           mv "${TEMP_DIR}" "${DIST_DIR}/translations"
         env:
-          DIST_DIR: dist/${{ steps.extract_branch.outputs.branch }}
+          DIST_DIR: dist/${{ env.current_branch }}
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v5
         with:

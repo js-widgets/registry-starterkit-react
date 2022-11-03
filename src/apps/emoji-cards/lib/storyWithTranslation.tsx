@@ -15,7 +15,7 @@ import messages_pl from '../locales/compiledStrings/pl.json';
 import messages_pt from '../locales/compiledStrings/pt.json';
 import messages_ru from '../locales/compiledStrings/ru.json';
 import messages_tr from '../locales/compiledStrings/tr.json';
-import messages_zh from '../locales/compiledStrings/zhcn.json';
+import messages_zh from '../locales/compiledStrings/zh.json';
 
 const messagesByLangcode: MessagesByCode = {
   [Locale.AR]: messages_ar,
