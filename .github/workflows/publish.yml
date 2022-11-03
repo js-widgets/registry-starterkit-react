@@ -63,7 +63,9 @@ jobs:
         env:
           DIST_DIR: dist/${{ env.current_branch }}
       - name: Build the catalog locally
-        run: yarn storybook:build --output-dir "${DIST_DIR}/storybook"
+        run: |
+          echo "PUBLIC_ASSETS_URL=/static" > .env.local
+          yarn storybook:build --output-dir "${DIST_DIR}/storybook"
         env:
           DEBUG: '*,-babel*,-eslint*'
           PUBLIC_URL: https://js-widgets.github.io/registry-starterkit-react/${{ env.current_branch }}/widget-registry
