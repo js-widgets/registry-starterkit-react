@@ -28,6 +28,7 @@ jobs:
           DIST_DIR: dist/${{ env.current_branch }}
       - name: Build the registry locally
         run: |
+          mkdir --parents "${DIST_DIR}/widget-registry"
           # Creates the JS & CSS files, and registry.json, and puts them in dist/widget-registry
           yarn dlx @js-widgets/webpack-cli \
             --debug \
