@@ -94,7 +94,7 @@ services:
           --account-pass=${ADMIN_PASSWORD} \
           site:install standard
         # Enable the modules.
-        vendor/bin/drush --yes pm:enable widget_type widget_instance widget_ingestion dblog devel
+        vendor/bin/drush --yes pm:enable widget_type widget_instance widget_ingestion dblog devel language content_translation
         vendor/bin/drush --yes theme:enable claro olivero
         # Set the Claro theme as default admin theme.
         vendor/bin/drush --yes config-set system.theme admin claro
