@@ -12,12 +12,8 @@ const fetchTranslationMessages = async (
   }
   try {
     // This relies on the CRA convention for PUBLIC_URL.
-    // react-intl does not support langCode "esla", so we need to
-    // load the JSON for "esla" even though the locale is "es"
     const response = await window.fetch(
-      `${process.env.PUBLIC_URL}/translations/${widgetId}/${
-        langCode === 'esla' ? langCode : locale
-      }.json`,
+      `${process.env.PUBLIC_URL}/translations/${widgetId}/${locale}.json`,
     );
     return response.json();
   } catch (e) {
