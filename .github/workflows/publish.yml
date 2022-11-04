@@ -25,12 +25,12 @@ jobs:
           # Creates the JS & CSS files, and registry.json, and puts them in dist/widget-registry
           yarn dlx @js-widgets/webpack-cli \
             --debug \
-            --existing-registry="${PUBLIC_URL}/registry.json" \
+            --existing-registry="${PUBLIC_URL}/widget-registry/registry.json" \
             --output-dir="${DIST_DIR}/widget-registry" \
             .
         env:
           DEBUG: '*,-babel*,-eslint*'
-          PUBLIC_URL: https://js-widgets.github.io/registry-starterkit-react/${{ env.current_branch }}/widget-registry
+          PUBLIC_URL: https://js-widgets.github.io/registry-starterkit-react/${{ env.current_branch }}
           PUBLIC_ASSETS_URL: https://js-widgets.github.io/registry-starterkit-react/${{ env.current_branch }}/static
           DIST_DIR: dist/${{ env.current_branch }}
           NODE_ENV: production
@@ -50,7 +50,7 @@ jobs:
           DIST_DIR: dist/${{ env.current_branch }}
       - name: Prepare translations
         run: |
-          # The public files of each widget need to be moved to /static so they are uploaded correctly.
+          # The translations of each widget need to be moved to /translations so they are uploaded correctly.
           TEMP_DIR=$(mktemp --directory)
           mkdir --parents "${TEMP_DIR}/translations"
           # Find all the folders with the name "compiledStrings" and copy them to the temporary directory.

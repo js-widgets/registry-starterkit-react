@@ -4,6 +4,9 @@ module.exports = {
   title: 'Emoji Cards',
   status: 'stable',
   description: 'Incredible emoji trading cards',
+  preview: {
+    url: `${process.env.PUBLIC_URL}/storybook/iframe.html?id=widgets-emoji-cards-components--cat&viewMode=story`,
+  },
   useExternalPeerDependencies: ['react', 'react-dom', 'react-intl'],
   settingsSchema: {
     type: 'object',
