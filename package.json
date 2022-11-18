@@ -80,7 +80,7 @@
     "sass-loader": "^13.1.0",
     "semver": "^7.3.8",
     "storybook-i18n": "^1.1.4",
-    "typescript": "^4.8.4",
+    "typescript": "^4.9.3",
     "webpack-merge": "^5.8.0"
   },
   "browser": {
