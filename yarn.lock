@@ -1670,7 +1670,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/postcss-cascade-layers@npm:^1.1.0":
+"@csstools/postcss-cascade-layers@npm:^1.1.0, @csstools/postcss-cascade-layers@npm:^1.1.1":
   version: 1.1.1
   resolution: "@csstools/postcss-cascade-layers@npm:1.1.1"
   dependencies:
@@ -2496,7 +2496,7 @@ __metadata:
     eslint-plugin-prettier: ^4.2.1
     html-react-parser: ^3.0.4
     lodash.camelcase: ^4.3.0
-    postcss-preset-env: ^7.8.2
+    postcss-preset-env: ^7.8.3
     process: ^0.11.10
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -6229,7 +6229,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.11":
+"autoprefixer@npm:^10.4.11, autoprefixer@npm:^10.4.13":
   version: 10.4.13
   resolution: "autoprefixer@npm:10.4.13"
   dependencies:
@@ -8124,6 +8124,13 @@ __metadata:
   version: 7.0.2
   resolution: "cssdb@npm:7.0.2"
   checksum: 521957cc26d71525186e9027b01440681b510e9fe02485963eeabf5051c627b44642c3a7a2a53e1760dfab24ecdb7d8c75ee35373d8cfbb3547502960fb186c7
+  languageName: node
+  linkType: hard
+
+"cssdb@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "cssdb@npm:7.1.0"
+  checksum: 19870ddc2f51d10179bd6278c3c3bf7c54abc342b1070ea496cd9eceb564a4f1820bc9133e5c796fd53d974b68dc30d0f4093a70733d215d9c722663800ef151
   languageName: node
   linkType: hard
 
@@ -15371,7 +15378,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-custom-properties@npm:^12.1.9":
+"postcss-custom-properties@npm:^12.1.10, postcss-custom-properties@npm:^12.1.9":
   version: 12.1.10
   resolution: "postcss-custom-properties@npm:12.1.10"
   dependencies:
@@ -15988,7 +15995,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-preset-env@npm:^7.0.1, postcss-preset-env@npm:^7.8.2":
+"postcss-preset-env@npm:^7.0.1":
   version: 7.8.2
   resolution: "postcss-preset-env@npm:7.8.2"
   dependencies:
@@ -16044,6 +16051,65 @@ __metadata:
   peerDependencies:
     postcss: ^8.2
   checksum: ffe86bef475f57cdacb93de79a3ebe372f2d1904a33b715dcb9e9f27980091afb750a7935dcc65ce9bbaa28f9ca34d17a650a3e82f4b8f9d197a694a1a958959
+  languageName: node
+  linkType: hard
+
+"postcss-preset-env@npm:^7.8.3":
+  version: 7.8.3
+  resolution: "postcss-preset-env@npm:7.8.3"
+  dependencies:
+    "@csstools/postcss-cascade-layers": ^1.1.1
+    "@csstools/postcss-color-function": ^1.1.1
+    "@csstools/postcss-font-format-keywords": ^1.0.1
+    "@csstools/postcss-hwb-function": ^1.0.2
+    "@csstools/postcss-ic-unit": ^1.0.1
+    "@csstools/postcss-is-pseudo-class": ^2.0.7
+    "@csstools/postcss-nested-calc": ^1.0.0
+    "@csstools/postcss-normalize-display-values": ^1.0.1
+    "@csstools/postcss-oklab-function": ^1.1.1
+    "@csstools/postcss-progressive-custom-properties": ^1.3.0
+    "@csstools/postcss-stepped-value-functions": ^1.0.1
+    "@csstools/postcss-text-decoration-shorthand": ^1.0.0
+    "@csstools/postcss-trigonometric-functions": ^1.0.2
+    "@csstools/postcss-unset-value": ^1.0.2
+    autoprefixer: ^10.4.13
+    browserslist: ^4.21.4
+    css-blank-pseudo: ^3.0.3
+    css-has-pseudo: ^3.0.4
+    css-prefers-color-scheme: ^6.0.3
+    cssdb: ^7.1.0
+    postcss-attribute-case-insensitive: ^5.0.2
+    postcss-clamp: ^4.1.0
+    postcss-color-functional-notation: ^4.2.4
+    postcss-color-hex-alpha: ^8.0.4
+    postcss-color-rebeccapurple: ^7.1.1
+    postcss-custom-media: ^8.0.2
+    postcss-custom-properties: ^12.1.10
+    postcss-custom-selectors: ^6.0.3
+    postcss-dir-pseudo-class: ^6.0.5
+    postcss-double-position-gradients: ^3.1.2
+    postcss-env-function: ^4.0.6
+    postcss-focus-visible: ^6.0.4
+    postcss-focus-within: ^5.0.4
+    postcss-font-variant: ^5.0.0
+    postcss-gap-properties: ^3.0.5
+    postcss-image-set-function: ^4.0.7
+    postcss-initial: ^4.0.1
+    postcss-lab-function: ^4.2.1
+    postcss-logical: ^5.0.4
+    postcss-media-minmax: ^5.0.0
+    postcss-nesting: ^10.2.0
+    postcss-opacity-percentage: ^1.1.2
+    postcss-overflow-shorthand: ^3.0.4
+    postcss-page-break: ^3.0.4
+    postcss-place: ^7.0.5
+    postcss-pseudo-class-any-link: ^7.1.6
+    postcss-replace-overflow-wrap: ^4.0.0
+    postcss-selector-not: ^6.0.1
+    postcss-value-parser: ^4.2.0
+  peerDependencies:
+    postcss: ^8.2
+  checksum: 71bfb697ffc55e27895b2bf3a579dd9b4c1321872816091935e33d6f659cab60795a03bb022dc8a4cab48fd5680a419fe9ae5d61a3a3d8c785ec9308f323e787
   languageName: node
   linkType: hard
 
