@@ -62,7 +62,7 @@
     "@types/react-transition-group": "^4.4.5",
     "@types/react-truncate": "^2.3.4",
     "canvas": "^2.10.2",
-    "chalk": "^5.1.2",
+    "chalk": "^5.2.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-formatjs": "^4.3.8",
     "eslint-plugin-prettier": "^4.2.1",
