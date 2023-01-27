@@ -64,7 +64,7 @@
     "canvas": "^2.11.0",
     "chalk": "^5.2.0",
     "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-formatjs": "^4.3.9",
+    "eslint-plugin-formatjs": "^4.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "html-react-parser": "^3.0.8",
     "lodash.camelcase": "^4.3.0",
