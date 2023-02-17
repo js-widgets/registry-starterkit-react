@@ -76,7 +76,7 @@
     "react-scripts": "^5.0.1",
     "regenerator-runtime": "^0.13.11",
     "resize-observer-polyfill": "^1.5.1",
-    "sass": "^1.58.0",
+    "sass": "^1.58.2",
     "sass-loader": "^13.2.0",
     "semver": "^7.3.8",
     "storybook-i18n": "^1.1.4",
