@@ -2493,7 +2493,7 @@ __metadata:
     "@testing-library/user-event": ^14.4.3
     "@types/jest": ^29.4.0
     "@types/lodash.camelcase": ^4.3.7
-    "@types/node": ^18.14.2
+    "@types/node": ^18.14.4
     "@types/react": ^18.0.28
     "@types/react-dom": ^18.0.11
     "@types/react-transition-group": ^4.4.5
@@ -4782,7 +4782,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^18.14.2":
+"@types/node@npm:*":
   version: 18.14.2
   resolution: "@types/node@npm:18.14.2"
   checksum: 53c07e721f6ae33de71306f6a0b75dae6066a4f55bd5484c93bd59ff25f0c5f004ceafeef509a4d0cb9e24a247efc34d50489bcc1b05a53ecc68e2fc088e65cb
@@ -4800,6 +4800,13 @@ __metadata:
   version: 16.18.13
   resolution: "@types/node@npm:16.18.13"
   checksum: c284f97a0630d65887be0e0d7ef8e5e5022eb4916ffae142db07f22dad565a80f17b6a84f21b4521c707f642540430710a8aa5930a2cf2bcbecde0a476ff9c02
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^18.14.4":
+  version: 18.14.4
+  resolution: "@types/node@npm:18.14.4"
+  checksum: 3f2f625777747b9f87e793eea5a8bbf1ac2c828846bda5811d07a457d55cfe6762239779759de61e7b7e917632b9ceee3f7ffd2a024117e7ec364dc1b4eb8d55
   languageName: node
   linkType: hard
 
