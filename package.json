@@ -63,7 +63,7 @@
     "@types/react-truncate": "^2.3.4",
     "canvas": "^2.11.0",
     "chalk": "^5.2.0",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-formatjs": "^4.9.0",
     "eslint-plugin-prettier": "^4.2.1",
     "html-react-parser": "^3.0.12",
