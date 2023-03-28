@@ -2829,7 +2829,7 @@ __metadata:
     canvas: ^2.11.0
     chalk: ^5.2.0
     eslint-config-prettier: ^8.8.0
-    eslint-plugin-formatjs: ^4.9.0
+    eslint-plugin-formatjs: ^4.9.1
     eslint-plugin-prettier: ^4.2.1
     html-react-parser: ^3.0.15
     lodash.camelcase: ^4.3.0
@@ -9741,9 +9741,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-formatjs@npm:^4.9.0":
-  version: 4.9.0
-  resolution: "eslint-plugin-formatjs@npm:4.9.0"
+"eslint-plugin-formatjs@npm:^4.9.1":
+  version: 4.9.1
+  resolution: "eslint-plugin-formatjs@npm:4.9.1"
   dependencies:
     "@formatjs/icu-messageformat-parser": 2.3.0
     "@formatjs/ts-transformer": 3.12.0
@@ -9758,7 +9758,7 @@ __metadata:
     unicode-emoji-utils: ^1.1.1
   peerDependencies:
     eslint: 7 || 8
-  checksum: 0f2beb8550aa5db0d5c30baa7ee1350d851958671be4722aa3bb3a52a45dfe00a2df2f24b7b8873f76c74980bcff4eb0afd634805bc75530981d544ade95013a
+  checksum: bec905f6bad388752af6c73e6e48c2b956406b3c0b35c44c2d66b059d033b29d4924f329c192f3e3c2b44ea014f0cded79c41653a551004680f7ada4cdadf10b
   languageName: node
   linkType: hard
 
