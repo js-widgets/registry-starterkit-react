@@ -1438,7 +1438,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-runtime@npm:^7.16.4, @babel/plugin-transform-runtime@npm:^7.22.7":
+"@babel/plugin-transform-runtime@npm:^7.16.4":
   version: 7.22.7
   resolution: "@babel/plugin-transform-runtime@npm:7.22.7"
   dependencies:
@@ -1451,6 +1451,22 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: 1b41c44d5c44c98df3885b4f541c4edbef507bbdb1c889eed9878d9aabb29b6f589192ae712454c20ced22c79cfb2911403023daf03d20902434a258632d4773
+  languageName: node
+  linkType: hard
+
+"@babel/plugin-transform-runtime@npm:^7.22.9":
+  version: 7.22.9
+  resolution: "@babel/plugin-transform-runtime@npm:7.22.9"
+  dependencies:
+    "@babel/helper-module-imports": ^7.22.5
+    "@babel/helper-plugin-utils": ^7.22.5
+    babel-plugin-polyfill-corejs2: ^0.4.4
+    babel-plugin-polyfill-corejs3: ^0.8.2
+    babel-plugin-polyfill-regenerator: ^0.5.1
+    semver: ^6.3.1
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 2fe5e41f83015ca174feda841d77aa9012fc855c907f9b360a11927f41b100537c8c83487771769147668e797eec26d5294e972b997f4759133cc43a22a43eec
   languageName: node
   linkType: hard
 
@@ -3010,7 +3026,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@js-widgets/registry-starterkit-react@workspace:."
   dependencies:
-    "@babel/plugin-transform-runtime": ^7.22.7
+    "@babel/plugin-transform-runtime": ^7.22.9
     "@babel/runtime": ^7.22.6
     "@formatjs/cli": ^5.1.13
     "@storybook/addon-a11y": ^6.5.16
@@ -18895,6 +18911,15 @@ __metadata:
   bin:
     semver: ./bin/semver.js
   checksum: 1b26ecf6db9e8292dd90df4e781d91875c0dcc1b1909e70f5d12959a23c7eebb8f01ea581c00783bbee72ceeaad9505797c381756326073850dc36ed284b21b9
+  languageName: node
+  linkType: hard
+
+"semver@npm:^6.3.1":
+  version: 6.3.1
+  resolution: "semver@npm:6.3.1"
+  bin:
+    semver: bin/semver.js
+  checksum: ae47d06de28836adb9d3e25f22a92943477371292d9b665fb023fae278d345d508ca1958232af086d85e0155aee22e313e100971898bbb8d5d89b8b1d4054ca2
   languageName: node
   linkType: hard
 
