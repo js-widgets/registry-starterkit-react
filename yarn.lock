@@ -3053,7 +3053,7 @@ __metadata:
     eslint-config-prettier: ^8.10.0
     eslint-plugin-formatjs: ^4.11.0
     eslint-plugin-prettier: ^4.2.1
-    html-react-parser: ^4.2.2
+    html-react-parser: ^4.2.3
     lodash.camelcase: ^4.3.0
     postcss-preset-env: ^9.2.0
     process: ^0.11.10
@@ -11892,13 +11892,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-dom-parser@npm:4.0.0":
-  version: 4.0.0
-  resolution: "html-dom-parser@npm:4.0.0"
+"html-dom-parser@npm:4.0.1":
+  version: 4.0.1
+  resolution: "html-dom-parser@npm:4.0.1"
   dependencies:
     domhandler: 5.0.3
     htmlparser2: 9.0.0
-  checksum: 95e483b2c945e1158e102e4eb69768124b06c94cf3c0abff8e9b02e146b7391dcdd620df8d54331efb9952c9187e0352ea436226e9ba5f26a0cc3cfe85853d4b
+  checksum: a40689030db11808c33b57c09c52917b201de8346d4dc5924ec102f9698b4ed33f204e6a294bc7e9cfabadf770db3e1d3a9e0ff79690442866ee6910a1a0d64a
   languageName: node
   linkType: hard
 
@@ -11959,17 +11959,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-react-parser@npm:^4.2.2":
-  version: 4.2.2
-  resolution: "html-react-parser@npm:4.2.2"
+"html-react-parser@npm:^4.2.3":
+  version: 4.2.3
+  resolution: "html-react-parser@npm:4.2.3"
   dependencies:
     domhandler: 5.0.3
-    html-dom-parser: 4.0.0
+    html-dom-parser: 4.0.1
     react-property: 2.0.0
     style-to-js: 1.1.4
   peerDependencies:
     react: 0.14 || 15 || 16 || 17 || 18
-  checksum: 5f8c0aeba02d7d3ff2bce4c32eafbbf77fd1aa664f15555ef49d75cce666211edb9c87a73a9b5648467442361f617438da038d27185fdbae983ac9731d67cbb7
+  checksum: 1a87bab53a45407a85a65714d338f7800c57434e6153da80f75d4784c662a8a3aeecb3874d9c54e78a5c183043fb14a7b889d7685dca36a2a8c6fe7ebcf0e913
   languageName: node
   linkType: hard
 
