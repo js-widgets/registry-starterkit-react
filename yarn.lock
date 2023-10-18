@@ -3042,7 +3042,7 @@ __metadata:
     "@testing-library/react": ^14.0.0
     "@testing-library/user-event": ^14.5.1
     "@types/jest": ^29.5.6
-    "@types/lodash.camelcase": ^4.3.7
+    "@types/lodash.camelcase": ^4.3.8
     "@types/node": ^18.18.5
     "@types/react": ^18.2.28
     "@types/react-dom": ^18.2.13
@@ -5297,12 +5297,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash.camelcase@npm:^4.3.7":
-  version: 4.3.7
-  resolution: "@types/lodash.camelcase@npm:4.3.7"
+"@types/lodash.camelcase@npm:^4.3.8":
+  version: 4.3.8
+  resolution: "@types/lodash.camelcase@npm:4.3.8"
   dependencies:
     "@types/lodash": "*"
-  checksum: ef068b921ab439f7b1a2c0ebbd890ba64ba437fc6aeb5e3ac18d34da30f9054fceaac5ccfdfa9e12b2fc403e10910439d3ebf92ba2f93de03c2f02261adfc000
+  checksum: 7cd9a851fa28ddf7f57232560b9f8715bcec380c403f65f0126d27dc5b654aa14b3553bf1811085a3d66303beb23f75fc60d3b4c3d0be44895d216b4e20b2a1f
   languageName: node
   linkType: hard
 
