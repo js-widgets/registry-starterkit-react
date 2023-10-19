@@ -3053,7 +3053,7 @@ __metadata:
     eslint-config-prettier: ^8.10.0
     eslint-plugin-formatjs: ^4.11.0
     eslint-plugin-prettier: ^4.2.1
-    html-react-parser: ^4.2.5
+    html-react-parser: ^4.2.6
     lodash.camelcase: ^4.3.0
     postcss-preset-env: ^9.2.0
     process: ^0.11.10
@@ -11989,17 +11989,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-react-parser@npm:^4.2.5":
-  version: 4.2.5
-  resolution: "html-react-parser@npm:4.2.5"
+"html-react-parser@npm:^4.2.6":
+  version: 4.2.6
+  resolution: "html-react-parser@npm:4.2.6"
   dependencies:
     domhandler: 5.0.3
     html-dom-parser: 5.0.1
     react-property: 2.0.0
-    style-to-js: 1.1.5
+    style-to-js: 1.1.6
   peerDependencies:
     react: 0.14 || 15 || 16 || 17 || 18
-  checksum: 094dcfd3af04c4920df21a844e9b0bf7a3ef29d1c71fd66efd9870c139ad35f40fed122a30a787497ab506565cb71b832b116c17425d6322b08d67eb99f56286
+  checksum: 8f934ccfc12a686c6b05ccc74472171449a98a64098467e0a7ec535868aefbb188a1c5bac1a22fab7d0bd103fe54456750b9f1da925b6f88824b2d1b06412e1e
   languageName: node
   linkType: hard
 
@@ -20200,12 +20200,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-to-js@npm:1.1.5":
-  version: 1.1.5
-  resolution: "style-to-js@npm:1.1.5"
+"style-to-js@npm:1.1.6":
+  version: 1.1.6
+  resolution: "style-to-js@npm:1.1.6"
   dependencies:
-    style-to-object: 1.0.0
-  checksum: 1516f34d21c632d275dca80f20b5e11fcfc72ae60c3aca6562e44c3767dce2e7672bfaa25bb24765db539ab43448a873fa5415e40de1f0ab9d1235c0e12b8ac4
+    style-to-object: 1.0.1
+  checksum: 7ff47d2ba0242309f11d025782ca7c6bce24c0b57511bcca13282ea8743ca7e751f57176d7e22698d52e239d153acc8ff3a448648ee7207c616429ae53e38edd
   languageName: node
   linkType: hard
 
@@ -20218,12 +20218,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-to-object@npm:1.0.0":
-  version: 1.0.0
-  resolution: "style-to-object@npm:1.0.0"
+"style-to-object@npm:1.0.1":
+  version: 1.0.1
+  resolution: "style-to-object@npm:1.0.1"
   dependencies:
     inline-style-parser: 0.2.2
-  checksum: 9a224c67be14334dbabef1a95772c5953a96782841c2e22f9e5f43bfd2c9044e8aa8f401ccccd74b373eef9d1a0bfe724b0900f7fc3ac09847e1c3d933c22411
+  checksum: 96a3e689195fec9ec73fcec59992989cd1ac4b0e6cd7efab0c60dd50b12712888f5f0d3c1ad04c66fafd622ffc08f9ccbba250d4a7b887d3d25971f4aea171bd
   languageName: node
   linkType: hard
 
