@@ -3053,7 +3053,7 @@ __metadata:
     eslint-config-prettier: ^8.10.0
     eslint-plugin-formatjs: ^4.11.0
     eslint-plugin-prettier: ^4.2.1
-    html-react-parser: ^4.2.6
+    html-react-parser: ^4.2.7
     lodash.camelcase: ^4.3.0
     postcss-preset-env: ^9.2.0
     process: ^0.11.10
@@ -11922,13 +11922,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-dom-parser@npm:5.0.1":
-  version: 5.0.1
-  resolution: "html-dom-parser@npm:5.0.1"
+"html-dom-parser@npm:5.0.2":
+  version: 5.0.2
+  resolution: "html-dom-parser@npm:5.0.2"
   dependencies:
     domhandler: 5.0.3
     htmlparser2: 9.0.0
-  checksum: 9f31b013e9691cb881ef7f5fa22415ca292565b6ad629bc7a23897bb1b5186e6b1c338cef6a7658b3ec633b7eaf2f9d781b7e31c5744778b6f697976f24b8f94
+  checksum: f8a33bd17056fc05b8ba751203c368462bb995768ac4c673b6ae4a469479770e747650472b3b587153c74f425378fb812f800cbd4ef3ee0b9aab655a22439938
   languageName: node
   linkType: hard
 
@@ -11989,17 +11989,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-react-parser@npm:^4.2.6":
-  version: 4.2.6
-  resolution: "html-react-parser@npm:4.2.6"
+"html-react-parser@npm:^4.2.7":
+  version: 4.2.7
+  resolution: "html-react-parser@npm:4.2.7"
   dependencies:
     domhandler: 5.0.3
-    html-dom-parser: 5.0.1
+    html-dom-parser: 5.0.2
     react-property: 2.0.0
-    style-to-js: 1.1.6
+    style-to-js: 1.1.8
   peerDependencies:
     react: 0.14 || 15 || 16 || 17 || 18
-  checksum: 8f934ccfc12a686c6b05ccc74472171449a98a64098467e0a7ec535868aefbb188a1c5bac1a22fab7d0bd103fe54456750b9f1da925b6f88824b2d1b06412e1e
+  checksum: 51d41def42bddd8e593dbcd24a8e1d4648f0eb0a85e99810370f521b16752fd3167c9abc5327e4ebb750587fac004ccd4262c027a91b41928bb786c74c85f6b6
   languageName: node
   linkType: hard
 
@@ -20200,12 +20200,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-to-js@npm:1.1.6":
-  version: 1.1.6
-  resolution: "style-to-js@npm:1.1.6"
+"style-to-js@npm:1.1.8":
+  version: 1.1.8
+  resolution: "style-to-js@npm:1.1.8"
   dependencies:
-    style-to-object: 1.0.1
-  checksum: 7ff47d2ba0242309f11d025782ca7c6bce24c0b57511bcca13282ea8743ca7e751f57176d7e22698d52e239d153acc8ff3a448648ee7207c616429ae53e38edd
+    style-to-object: 1.0.3
+  checksum: cc4d4284af587bf74559a6da17dadb88c96c8054755666cce1b768615ac2bd6231ce332a8cee118acafb577f51f243b795b716326b3c617ec12151d23f660d8f
   languageName: node
   linkType: hard
 
@@ -20218,12 +20218,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-to-object@npm:1.0.1":
-  version: 1.0.1
-  resolution: "style-to-object@npm:1.0.1"
+"style-to-object@npm:1.0.3":
+  version: 1.0.3
+  resolution: "style-to-object@npm:1.0.3"
   dependencies:
     inline-style-parser: 0.2.2
-  checksum: 96a3e689195fec9ec73fcec59992989cd1ac4b0e6cd7efab0c60dd50b12712888f5f0d3c1ad04c66fafd622ffc08f9ccbba250d4a7b887d3d25971f4aea171bd
+  checksum: fca6b35dc704656163c4b11d514ada9f9998fb434c9cec5995445d7d7d595ba3a4fda0476016d625cbb282d43ba5123ef0b5871d855d391400bb0dc2c2beeae1
   languageName: node
   linkType: hard
 
