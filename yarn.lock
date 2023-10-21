@@ -3053,7 +3053,7 @@ __metadata:
     eslint-config-prettier: ^8.10.0
     eslint-plugin-formatjs: ^4.11.0
     eslint-plugin-prettier: ^4.2.1
-    html-react-parser: ^4.2.7
+    html-react-parser: ^4.2.8
     lodash.camelcase: ^4.3.0
     postcss-preset-env: ^9.2.0
     process: ^0.11.10
@@ -11989,9 +11989,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-react-parser@npm:^4.2.7":
-  version: 4.2.7
-  resolution: "html-react-parser@npm:4.2.7"
+"html-react-parser@npm:^4.2.8":
+  version: 4.2.8
+  resolution: "html-react-parser@npm:4.2.8"
   dependencies:
     domhandler: 5.0.3
     html-dom-parser: 5.0.2
@@ -11999,7 +11999,7 @@ __metadata:
     style-to-js: 1.1.8
   peerDependencies:
     react: 0.14 || 15 || 16 || 17 || 18
-  checksum: 51d41def42bddd8e593dbcd24a8e1d4648f0eb0a85e99810370f521b16752fd3167c9abc5327e4ebb750587fac004ccd4262c027a91b41928bb786c74c85f6b6
+  checksum: 712b0de9732b0ad26e91036eb328c80dca83404af0290741ff2c83915ed5d904901f1f4041a257f2f318b3c1e163f73746eda542b830f722b88f27384d053d73
   languageName: node
   linkType: hard
 
