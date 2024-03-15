@@ -3047,7 +3047,7 @@ __metadata:
     "@types/react": ^18.2.33
     "@types/react-dom": ^18.2.14
     "@types/react-transition-group": ^4.4.10
-    "@types/react-truncate": ^2.3.6
+    "@types/react-truncate": ^2.3.7
     canvas: ^2.11.2
     chalk: ^5.3.0
     eslint-config-prettier: ^8.10.0
@@ -5482,12 +5482,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-truncate@npm:^2.3.6":
-  version: 2.3.6
-  resolution: "@types/react-truncate@npm:2.3.6"
+"@types/react-truncate@npm:^2.3.7":
+  version: 2.3.7
+  resolution: "@types/react-truncate@npm:2.3.7"
   dependencies:
     "@types/react": "*"
-  checksum: ec6dba6c05c863ebdb57177892d682acccb23849718abfd7a4b74f4523fadb7786f6610a286547d319f6f4954424eef1595ca76cb18d667fb23dcfb117cd6e46
+  checksum: 8407a758cb2db8d18365cb20300f015817f4784f36ed56612357cc34c4618c85c7d820011447073655406681d98f73b9ba8c6df1c9214dba31073f9bfbf841a2
   languageName: node
   linkType: hard
 
