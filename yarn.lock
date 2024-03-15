@@ -3046,7 +3046,7 @@ __metadata:
     "@types/node": ^18.18.7
     "@types/react": ^18.2.33
     "@types/react-dom": ^18.2.14
-    "@types/react-transition-group": ^4.4.8
+    "@types/react-transition-group": ^4.4.10
     "@types/react-truncate": ^2.3.6
     canvas: ^2.11.2
     chalk: ^5.3.0
@@ -5473,12 +5473,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-transition-group@npm:^4.4.8":
-  version: 4.4.8
-  resolution: "@types/react-transition-group@npm:4.4.8"
+"@types/react-transition-group@npm:^4.4.10":
+  version: 4.4.10
+  resolution: "@types/react-transition-group@npm:4.4.10"
   dependencies:
     "@types/react": "*"
-  checksum: ad7ba2bce97631fda9d89b4ed9772489bd050fec3ccd7563041b206dbe219d37d22e0d7731b1f90f56e89daf40e69ba16beba8066c42165bf8a584533feb6a2c
+  checksum: fe2ea11f70251e9f79f368e198c18fd469b1d4f1e1d44e4365845b44e15974b0ec925100036f449b023b0ca3480a82725c5f0a73040e282ad32ec7b0def9b57c
   languageName: node
   linkType: hard
 
