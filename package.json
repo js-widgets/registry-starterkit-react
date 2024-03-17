@@ -78,7 +78,7 @@
     "resize-observer-polyfill": "^1.5.1",
     "sass": "^1.72.0",
     "sass-loader": "^13.3.3",
-    "semver": "^7.5.4",
+    "semver": "^7.6.0",
     "storybook-i18n": "^1.1.5",
     "typescript": "^5.2.2",
     "webpack-merge": "^5.10.0"
