@@ -3323,7 +3323,7 @@ __metadata:
     react-scripts: ^5.0.1
     regenerator-runtime: ^0.14.1
     resize-observer-polyfill: ^1.5.1
-    sass: ^1.80.5
+    sass: ^1.83.4
     sass-loader: ^13.3.3
     semver: ^7.6.3
     storybook-i18n: ^1.1.5
@@ -12913,10 +12913,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"immutable@npm:^4.0.0":
-  version: 4.3.4
-  resolution: "immutable@npm:4.3.4"
-  checksum: de3edd964c394bab83432429d3fb0b4816b42f56050f2ca913ba520bd3068ec3e504230d0800332d3abc478616e8f55d3787424a90d0952e6aba864524f1afc3
+"immutable@npm:^5.0.2":
+  version: 5.0.3
+  resolution: "immutable@npm:5.0.3"
+  checksum: b2fcfc75aff29634babfcf6afb102111d7bc3858bfc55c17c5ad5eedf11085fe8b72d59fac883c6cfe9b2ec6e72cc184dec88782d5375ab17dc4eb25e3a665ed
   languageName: node
   linkType: hard
 
@@ -19778,17 +19778,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.80.5":
-  version: 1.80.5
-  resolution: "sass@npm:1.80.5"
+"sass@npm:^1.83.4":
+  version: 1.83.4
+  resolution: "sass@npm:1.83.4"
   dependencies:
     "@parcel/watcher": ^2.4.1
     chokidar: ^4.0.0
-    immutable: ^4.0.0
+    immutable: ^5.0.2
     source-map-js: ">=0.6.2 <2.0.0"
+  dependenciesMeta:
+    "@parcel/watcher":
+      optional: true
   bin:
     sass: sass.js
-  checksum: de71f140e3901131a6d414e8a00f501b77a1d5d44a2963f34c06205a1a3b45c65d194b3a8bdf0a5c420965dc04d33abca04b638a291b66c528090f162be9bc82
+  checksum: 500958ea77ceb92db0aaef7e6ee5bc3cc016f4ad42fcad40dd2a2891b758c74538c651c47c01f9c04d9b743453efd5a6ba0caccc679f03c6da47a7bb25b2d30c
   languageName: node
   linkType: hard
 
