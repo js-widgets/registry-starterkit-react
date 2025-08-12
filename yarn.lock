@@ -3303,7 +3303,7 @@ __metadata:
     "@testing-library/user-event": ^14.5.2
     "@types/jest": ^29.5.14
     "@types/lodash.camelcase": ^4.3.9
-    "@types/node": ^18.19.70
+    "@types/node": ^18.19.122
     "@types/react": ^18.3.18
     "@types/react-dom": ^18.3.5
     "@types/react-transition-group": ^4.4.12
@@ -5770,12 +5770,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.19.70":
-  version: 18.19.70
-  resolution: "@types/node@npm:18.19.70"
+"@types/node@npm:^18.19.122":
+  version: 18.19.122
+  resolution: "@types/node@npm:18.19.122"
   dependencies:
     undici-types: ~5.26.4
-  checksum: 6ce382b659a03fb694b8af4bbf3a397c0f8b6448ab4c0f17fc58de8fe649c474146b88c0317ab0ccb50ce9e251464498b0aa43227f1626d4f65bd196cbae6764
+  checksum: 08f30c349d9719c6953789641da385e01af776107da4dd07820a5036c4ecbc24fd04036e7cc7d7036f275d6ae27bd0949c3423f7e1c0b8e512b728efa70951ea
   languageName: node
   linkType: hard
 
