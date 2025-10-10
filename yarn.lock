@@ -3330,7 +3330,7 @@ __metadata:
     "@types/jest": ^29.5.14
     "@types/lodash.camelcase": ^4.3.9
     "@types/node": ^18.19.129
-    "@types/react": ^18.3.24
+    "@types/react": ^18.3.26
     "@types/react-dom": ^18.3.7
     "@types/react-transition-group": ^4.4.12
     "@types/react-truncate": ^2.3.7
@@ -5931,13 +5931,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.3.24":
-  version: 18.3.24
-  resolution: "@types/react@npm:18.3.24"
+"@types/react@npm:^18.3.26":
+  version: 18.3.26
+  resolution: "@types/react@npm:18.3.26"
   dependencies:
     "@types/prop-types": "*"
     csstype: ^3.0.2
-  checksum: 852fd0430d721ceb431662ac90b6b41d6473ea55d29b5d92f7a81f4c6c397eb3b26a904fdd276fb71a5fad318d0d79cc0072867024611716bfb85e6b4907ae68
+  checksum: ecff0da9f9a1d1663152ffd1283a6e3f20e1255dedc99259d535f01ac0916535f7bcd0fd1783f6cec1729fe5cfe4a79e78eb9a4b1447af81ae86561a1bc66f6d
   languageName: node
   linkType: hard
 
