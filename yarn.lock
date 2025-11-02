@@ -1552,9 +1552,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-runtime@npm:^7.28.3":
-  version: 7.28.3
-  resolution: "@babel/plugin-transform-runtime@npm:7.28.3"
+"@babel/plugin-transform-runtime@npm:^7.28.5":
+  version: 7.28.5
+  resolution: "@babel/plugin-transform-runtime@npm:7.28.5"
   dependencies:
     "@babel/helper-module-imports": ^7.27.1
     "@babel/helper-plugin-utils": ^7.27.1
@@ -1564,7 +1564,7 @@ __metadata:
     semver: ^6.3.1
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 63d2fc05d5bfcb96f31be54b095d72a89f0a03c8de10f5d742b18b174e2731bcdc27292e8deec66c2e88cebf8298393123d5e767526f6fffbc75cb8144ef66c6
+  checksum: 5bb66f366c5bb22d0c890667ecd0f1fde9db86ac04df62b21fc2bbf58531eb84068bb0bf38fb1c496c8f78a917c59a884f6c1f8b205b8689d155e72fcf1d442d
   languageName: node
   linkType: hard
 
@@ -3307,7 +3307,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@js-widgets/registry-starterkit-react@workspace:."
   dependencies:
-    "@babel/plugin-transform-runtime": ^7.28.3
+    "@babel/plugin-transform-runtime": ^7.28.5
     "@babel/runtime": ^7.28.4
     "@formatjs/cli": ^5.1.13
     "@storybook/addon-a11y": ^6.5.16
