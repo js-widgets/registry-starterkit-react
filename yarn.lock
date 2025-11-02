@@ -3349,7 +3349,7 @@ __metadata:
     react-scripts: ^5.0.1
     regenerator-runtime: ^0.14.1
     resize-observer-polyfill: ^1.5.1
-    sass: ^1.93.2
+    sass: ^1.93.3
     sass-loader: ^13.3.3
     semver: ^7.7.3
     storybook-i18n: ^1.1.5
@@ -19860,9 +19860,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.93.2":
-  version: 1.93.2
-  resolution: "sass@npm:1.93.2"
+"sass@npm:^1.93.3":
+  version: 1.93.3
+  resolution: "sass@npm:1.93.3"
   dependencies:
     "@parcel/watcher": ^2.4.1
     chokidar: ^4.0.0
@@ -19873,7 +19873,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: ae466ac93687ee84a427e2e7600df3a3adde74c1ddb72ec793f6276933d96ecea373467b342bc9059f6ead71b2786041a05f12221ed0044f1e6b65223a399e8e
+  checksum: f0e8b133db69f4c999f0ef898988e7b2ee1a5d73c33d8e1a341252c68dcbdbf8df7863b9dd199c2574e834d42f7d6d472ab48f905b404c799ae31ac511b85521
   languageName: node
   linkType: hard
 
