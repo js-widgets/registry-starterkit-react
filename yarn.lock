@@ -3346,7 +3346,7 @@ __metadata:
     eslint-config-prettier: ^8.10.2
     eslint-plugin-formatjs: ^4.13.3
     eslint-plugin-prettier: ^4.2.5
-    html-react-parser: ^4.2.10
+    html-react-parser: ^5.2.17
     lodash.camelcase: ^4.3.0
     postcss-preset-env: ^9.6.0
     process: ^0.11.10
@@ -10207,14 +10207,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domutils@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "domutils@npm:3.1.0"
+"domutils@npm:^3.2.2":
+  version: 3.2.2
+  resolution: "domutils@npm:3.2.2"
   dependencies:
     dom-serializer: ^2.0.0
     domelementtype: ^2.3.0
     domhandler: ^5.0.3
-  checksum: e5757456ddd173caa411cfc02c2bb64133c65546d2c4081381a3bafc8a57411a41eed70494551aa58030be9e58574fcc489828bebd673863d39924fb4878f416
+  checksum: ae941d56f03d857077d55dde9297e960a625229fc2b933187cc4123084d7c2d2517f58283a7336567127029f1e008449bac8ac8506d44341e29e3bb18e02f906
   languageName: node
   linkType: hard
 
@@ -10451,10 +10451,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"entities@npm:^4.2.0, entities@npm:^4.5.0":
+"entities@npm:^4.2.0":
   version: 4.5.0
   resolution: "entities@npm:4.5.0"
   checksum: 853f8ebd5b425d350bffa97dd6958143179a5938352ccae092c62d1267c4e392a039be1bae7d51b6e4ffad25f51f9617531fedf5237f15df302ccfb452cbf2d7
+  languageName: node
+  linkType: hard
+
+"entities@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "entities@npm:7.0.1"
+  checksum: 5ee49e52e64eafc63251585f74eae50f259ea2169dbbf5380843dcd97c79bfe430a58e7f34012ab67a8e258f6ef9f92d721d149ffc88c89039e155f1bcf48a53
   languageName: node
   linkType: hard
 
@@ -12604,13 +12611,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-dom-parser@npm:5.0.3":
-  version: 5.0.3
-  resolution: "html-dom-parser@npm:5.0.3"
+"html-dom-parser@npm:5.1.8":
+  version: 5.1.8
+  resolution: "html-dom-parser@npm:5.1.8"
   dependencies:
     domhandler: 5.0.3
-    htmlparser2: 9.0.0
-  checksum: 7bfe242372016a677cd9ed173f54081d82bb038de580d0b8761fcdcb0abef1d4a03cdc620314b7485e4c9dfcb8c451a59b0556e9b937f1243b4ca118363d9b04
+    htmlparser2: 10.1.0
+  checksum: c05d001c2a40d9a27662a4b316ae5e080e439249ad5b2f91a93e8647fa045e0717a4cd9efe573ed46ef4f5341e9d743c0c060524154b1aba1a34fa6a69cdfb2a
   languageName: node
   linkType: hard
 
@@ -12671,17 +12678,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-react-parser@npm:^4.2.10":
-  version: 4.2.10
-  resolution: "html-react-parser@npm:4.2.10"
+"html-react-parser@npm:^5.2.17":
+  version: 5.2.17
+  resolution: "html-react-parser@npm:5.2.17"
   dependencies:
     domhandler: 5.0.3
-    html-dom-parser: 5.0.3
+    html-dom-parser: 5.1.8
     react-property: 2.0.2
-    style-to-js: 1.1.8
+    style-to-js: 1.1.21
   peerDependencies:
-    react: 0.14 || 15 || 16 || 17 || 18
-  checksum: 26784eb0619e7fe073104768039f4e6f81e19956b79533e836938faae2aae9819c78cfcb3251b564d0e5eab46fcfdcc89570bc227d53414a2d961a7f6ac99f97
+    "@types/react": 0.14 || 15 || 16 || 17 || 18 || 19
+    react: 0.14 || 15 || 16 || 17 || 18 || 19
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 6c4efcda6e2c10f36205cb236e4490e41e1d8394909338f1424c1bcb02285e4284d3c5c4d80f95349477bb8fe0ea199a25c64dc24cf1a36686f5703ca5de899c
   languageName: node
   linkType: hard
 
@@ -12733,15 +12744,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"htmlparser2@npm:9.0.0":
-  version: 9.0.0
-  resolution: "htmlparser2@npm:9.0.0"
+"htmlparser2@npm:10.1.0":
+  version: 10.1.0
+  resolution: "htmlparser2@npm:10.1.0"
   dependencies:
     domelementtype: ^2.3.0
     domhandler: ^5.0.3
-    domutils: ^3.1.0
-    entities: ^4.5.0
-  checksum: a234c3add821cae8308ca61ce4b8ad3e88af83cf9c3c2003059adc89c46a06ffc39cc2a92b39af8d16c3705e1055df6769d80877acb6529983867f0d7e74098d
+    domutils: ^3.2.2
+    entities: ^7.0.1
+  checksum: 49b8fa62dcd833b89535523c437d04069400e618b22b8dc8cd48bf6ef820752bb026c4f1fc7309d08b6016bfcd3cc0eca4ed48d5eeff4a3e010be19027d51c70
   languageName: node
   linkType: hard
 
@@ -13071,10 +13082,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inline-style-parser@npm:0.2.2":
-  version: 0.2.2
-  resolution: "inline-style-parser@npm:0.2.2"
-  checksum: 698893d6542d4e7c0377936a1c7daec34a197765bd77c5599384756a95ce8804e6b79347b783aa591d5e9c6f3d33dae74c6d4cad3a94647eb05f3a785e927a3f
+"inline-style-parser@npm:0.2.7":
+  version: 0.2.7
+  resolution: "inline-style-parser@npm:0.2.7"
+  checksum: 7bf0b92aeae1f96f8a4316e38fc7441a885c221cc4b7fc1aa05835004b42a66fa863aaa5f7555a62e47fdf3da02628fbabee89d38b9edddd9e93597a55c18b5d
   languageName: node
   linkType: hard
 
@@ -21025,12 +21036,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-to-js@npm:1.1.8":
-  version: 1.1.8
-  resolution: "style-to-js@npm:1.1.8"
+"style-to-js@npm:1.1.21":
+  version: 1.1.21
+  resolution: "style-to-js@npm:1.1.21"
   dependencies:
-    style-to-object: 1.0.3
-  checksum: cc4d4284af587bf74559a6da17dadb88c96c8054755666cce1b768615ac2bd6231ce332a8cee118acafb577f51f243b795b716326b3c617ec12151d23f660d8f
+    style-to-object: 1.0.14
+  checksum: 01541bf726cc44ad574e4b77a65bd40aba9d652a13a9b8eeb5ca358ef52faad6c5047c591b384d4ef6a2fb315855088372ece7ec580fe73ebbbf7713935707f6
   languageName: node
   linkType: hard
 
@@ -21043,12 +21054,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-to-object@npm:1.0.3":
-  version: 1.0.3
-  resolution: "style-to-object@npm:1.0.3"
+"style-to-object@npm:1.0.14":
+  version: 1.0.14
+  resolution: "style-to-object@npm:1.0.14"
   dependencies:
-    inline-style-parser: 0.2.2
-  checksum: fca6b35dc704656163c4b11d514ada9f9998fb434c9cec5995445d7d7d595ba3a4fda0476016d625cbb282d43ba5123ef0b5871d855d391400bb0dc2c2beeae1
+    inline-style-parser: 0.2.7
+  checksum: 0095da3053995eb3069bba0520a52975f319eaa0d7e74e357854b805b18b622c62bfd8787cdd9d9e96b82ac0e399f6ebf90d365954bc03adc77ddcf841de5431
   languageName: node
   linkType: hard
 
