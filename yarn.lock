@@ -1870,10 +1870,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.28.6":
-  version: 7.28.6
-  resolution: "@babel/runtime@npm:7.28.6"
-  checksum: 42d8a868c2fc2e9a77927945a6daa7ec03c7ea49e611e0d15442933cdabb12f20e3a6849c729259076c10a4247adec229331d1f94c2d0073ea0979d7853e29fd
+"@babel/runtime@npm:^7.29.2":
+  version: 7.29.2
+  resolution: "@babel/runtime@npm:7.29.2"
+  checksum: d5548d1165de8995f8afc93a5694b8625409be16cd1f2250ac13e331335858ddac3cb9fd278e6c43956a130101a2203f09417938a1a96f9fb70f02b4b4172e1d
   languageName: node
   linkType: hard
 
@@ -3315,7 +3315,7 @@ __metadata:
   resolution: "@js-widgets/registry-starterkit-react@workspace:."
   dependencies:
     "@babel/plugin-transform-runtime": ^7.29.0
-    "@babel/runtime": ^7.28.6
+    "@babel/runtime": ^7.29.2
     "@formatjs/cli": ^5.1.13
     "@storybook/addon-a11y": ^6.5.16
     "@storybook/addon-actions": ^6.5.16
