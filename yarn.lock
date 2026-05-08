@@ -3357,7 +3357,7 @@ __metadata:
     regenerator-runtime: ^0.14.1
     resize-observer-polyfill: ^1.5.1
     sass: ^1.99.0
-    sass-loader: ^13.3.3
+    sass-loader: ^16.0.8
     semver: ^7.7.4
     storybook-i18n: ^1.1.5
     typescript: ^5.9.3
@@ -19850,19 +19850,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:^13.3.3":
-  version: 13.3.3
-  resolution: "sass-loader@npm:13.3.3"
+"sass-loader@npm:^16.0.8":
+  version: 16.0.8
+  resolution: "sass-loader@npm:16.0.8"
   dependencies:
     neo-async: ^2.6.2
   peerDependencies:
-    fibers: ">= 3.1.0"
+    "@rspack/core": 0.x || ^1.0.0 || ^2.0.0-0
     node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
     sass: ^1.3.0
     sass-embedded: "*"
     webpack: ^5.0.0
   peerDependenciesMeta:
-    fibers:
+    "@rspack/core":
       optional: true
     node-sass:
       optional: true
@@ -19870,7 +19870,9 @@ __metadata:
       optional: true
     sass-embedded:
       optional: true
-  checksum: 32bdb99afc07de06291091c847ec5a21eca1a4136a58a5a57f965a70e53d40d4f88625b828915ffb205baa866eef16a7c2c3a4db416b74ec6fe0bb00a04b7609
+    webpack:
+      optional: true
+  checksum: 3d2be4e9b66811ae03a642862e442c3564ed918a6f8cb89a8133f392f6682f57d864031aee024b7b6b9ef1e80298c51a04b97d633ac5211846f2389522a68952
   languageName: node
   linkType: hard
 
