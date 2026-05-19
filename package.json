@@ -57,7 +57,7 @@
     "@types/jest": "^29.5.14",
     "@types/lodash.camelcase": "^4.3.9",
     "@types/node": "^18.19.130",
-    "@types/react": "^18.3.28",
+    "@types/react": "^18.3.29",
     "@types/react-dom": "^18.3.7",
     "@types/react-transition-group": "^4.4.12",
     "@types/react-truncate": "^2.3.7",
