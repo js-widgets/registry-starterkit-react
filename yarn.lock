@@ -3358,7 +3358,7 @@ __metadata:
     resize-observer-polyfill: ^1.5.1
     sass: ^1.99.0
     sass-loader: ^13.3.3
-    semver: ^7.8.0
+    semver: ^7.8.4
     storybook-i18n: ^1.1.5
     typescript: ^5.9.3
     webpack-merge: ^5.10.0
@@ -20027,12 +20027,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.8.0":
-  version: 7.8.0
-  resolution: "semver@npm:7.8.0"
+"semver@npm:^7.8.4":
+  version: 7.8.4
+  resolution: "semver@npm:7.8.4"
   bin:
     semver: bin/semver.js
-  checksum: 68e38bc26ed1191d7c78d2b711bdffc2f8b1d05a1caadda41a1d7e1a9d32e1da5ae5b645de5c5f2b27bde830d7e9c1cbeeafcb8fda091830411df7d40be405b1
+  checksum: 42404642f4b892bd95859c6e2c5777a2916d6e4f0d924441593dea0911cadf5d8761d41b4ca3701793818ecdc72982df5c6d6328cba88252a1f0ebf93e375463
   languageName: node
   linkType: hard
 
